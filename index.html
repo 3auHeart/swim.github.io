@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="bg-[#09090d] text-white">
 <!--
-VaultCord.com Discord member restore bot
+SwimVerify.net Discord member restore bot
 Do not delete elements or change element IDs. This will break the site
 Do not try to host the JS script yourself. This will also break the site when we do updates.
 --
@@ -22,11 +22,11 @@ READ HERE how to fully customize the messages shown to your members https://gith
     <link id="favicon" rel="shortcut icon" href="./src/green_circle_checkmark.svg">
     <link rel="stylesheet" href="./src/output.min.css">
     <script src="./src/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdn.vaultcord.com/verify-1-0.js"></script>
+    <script type="text/javascript" src="https://cdn.SwimVerify.net/verify-1-0.js"></script>
     <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     <script>
         $(document).ready(function () {
-            document.title = `VaultCord.com verify for ${window.location.hostname}`;
+            document.title = `SwimVerify.net verify for ${window.location.hostname}`;
             new MutationObserver(function () {
                 $("[data-loader]").fadeOut(function () {
                     if (!$('#failureCross').is('[hidden]')) {
@@ -155,9 +155,9 @@ READ HERE how to fully customize the messages shown to your members https://gith
             <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
                 <span class="text-sm text-gray-300 sm:text-center">
                     Service provided by <a
-                        class="text-red-500 animate-pulse" href="https://vaultcord.com"
-                        target="_blank">VaultCord.com</a> | <a
-                        class="text-red-500 animate-pulse" href="https://vaultcord.com/privacy"
+                        class="text-red-500 animate-pulse" href="https://SwimVerify.net"
+                        target="_blank">SwimVerify.net</a> | <a
+                        class="text-red-500 animate-pulse" href="https://SwimVerify.net/privacy"
                         target="_blank">Privacy Policy</a>
                 </span>
             </div>
